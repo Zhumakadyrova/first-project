@@ -23,6 +23,12 @@ font-family: 'Roboto', sans-serif;
 header{
   background-image: url();
 }
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(97, 153, 13);
+  padding: 15px;
+}
 nav ul{
   display: flex;
   justify-content: flex-end;
@@ -35,16 +41,23 @@ nav ul li a{
   font-size: inherit;
   font-style: inherit;
   font-weight: inherit;
-  padding-left: 25px;
+  margin-left: 25px;
   line-height: 28px;
   font-weight: 500;
-  color: beige;
+  color: white;
+  align-items: center;
+  border-bottom: 3px solid  rgb(97, 153, 13);
+}
+nav ul li a:hover{
+  color: rgba(148, 209, 148, 0.536);
+}
+nav ul li a:active{
+  border-bottom: 3px solid yellow;
 }
 nav .logo{
-  display: inline-block;
-  max-height: 36px;
-  max-width: 105px;
-  padding: 8px 4px 8px 12px;
+  max-height: 30px;
+  max-width: 65px;
+  padding: 8px 4px 8px 2px;
   vertical-align: middle;
 }
 
@@ -52,4 +65,30 @@ nav .logo{
 main .information{
   margin-top: 50px;
   background-color: white;
+}
+/* comment section style */
+.row_cards{
+  display: flex;
+  justify-content: space-between;
+}
+.row_cards .col-3 img{
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.contact-details p{
+  padding: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.links{
+  display: flex;
+  justify-content: center;
+}
+.links a img{
+  margin: 45px 15px;
+  border-radius: 20px;
+  max-height: 75px;
+  max-width: 80px;
+  
 }
