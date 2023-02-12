@@ -62,18 +62,43 @@ nav .logo{
 }
 
 
-main .information{
+main .information {
   margin-top: 50px;
   background-color: white;
 }
 /* comment section style */
 .row_cards{
+  padding-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: rgba(203, 203, 191, 0.548);
+}
+.row_cards .col-4{
+  max-width: 400px;
+  margin: 20px;
 }
 .row_cards .col-3 img{
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 400px;
+  max-width: 400px;
+}
+.row_cards .col-4 .card-text{
+  background-color: white;
+}
+.col-4 h4{
+  text-align: center;
+  padding: 8px;
+}
+.col-4 .position{
+  margin-bottom: 8px;
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
+.col-4 .bio{
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin: 0 30px;
+  line-height: 25px;
 }
 
 .contact-details p{
