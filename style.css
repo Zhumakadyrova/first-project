@@ -66,6 +66,21 @@ nav .logo{
   padding: 0 10px;
   display: inline;
 }
+h2{
+  background-image: url(/pictures/background-flora-spring-closeup-petal.jpg);
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: 100% 100%;
+  height: 200px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+
+}
 
 /* about */
 
@@ -86,11 +101,111 @@ nav .logo{
   margin: 50 auto;
   padding: 30px 0;
 }
+.video{
+  display: inline-block;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+  /* photo  page */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 /* comment section style */
+.white-row2{
+  background-color: white;
+  height: 80px;
+  max-width: 60%;
+  margin-top: 80px;
+  align-items: center;
+}
 .comments-h2{
   text-align: center;
   font-weight: bold;
-  padding: 70px;
   font-family: 'Nunito', sans-serif;
 }
 .row_cards{
@@ -112,19 +227,25 @@ nav .logo{
 }
 .col-4 h4{
   text-align: center;
-  padding: 8px;
+  padding-top: 15px;
 }
 .col-4 .position{
+  padding-top: 15px ;
   margin-bottom: 8px;
   text-align: center;
   font-style: italic;
   font-size: 12px;
 }
 .col-4 .bio{
-  font-family: 'Nunito', sans-serif;
+  font-family: Roboto;
+  color: rgb(43, 40, 40);
   text-align: center;
-  margin: 0 30px;
+  font-size: 11pt;
+  margin: 15px 30px;
   line-height: 25px;
+  padding: 18px 0;
+  line-height: 1.55;
+  font-weight: 200;
 }
 /* photo */
 /* Slideshow container */
