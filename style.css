@@ -81,6 +81,10 @@ h2{
   font-size: 35px;
 
 }
+#ecobee img{
+  max-height: 100px;
+  width: 100%;
+}
 
 /* about */
 
